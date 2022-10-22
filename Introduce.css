@@ -1,0 +1,69 @@
+body { 
+  background-image: url(imageback.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul{
+text-align: center;
+list-style-type: none;
+margin: 10px 20px 30px 1200px;
+float: right;
+}
+
+ul li{
+display: inline-block;
+margin: 10px 20px;
+}
+
+ul li a{
+font-size: 15px;
+font-family:courier;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 30px;
+border: 2px solid violet;
+color: fuchsia;
+background-color: white;
+}
+
+ul li a:hover{
+background-color: fuchsia;
+color: aqua;
+transition-duration: 1.5s;
+}
+
+header{
+font-size: 60px;
+text-align: center;
+color: white;
+font-family: georgia;
+}
+
+header:hover {
+color: fuchsia;
+transition: 1s;
+}
+
+img {
+width:25%;
+height:25%;
+float:left;
+border-radius: 300px;
+margin: 50px 50px 0px 50px;
+}
+
+p{
+color: white;
+text-align: center;
+color: white;
+font-family:verdana;
+padding: 75px 175px 0px 0px;
+font-size: 35px;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 30em;
+float:right;
+}

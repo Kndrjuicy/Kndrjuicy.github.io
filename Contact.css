@@ -1,0 +1,91 @@
+body { 
+  background-image: url(imageback.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul{
+text-align: center;
+list-style-type: none;
+margin: 10px 20px 30px 1200px;
+float: right;
+}
+
+ul li{
+display: inline-block;
+margin: 10px 20px;
+}
+
+ul li a{
+font-size: 15px;
+font-family:courier;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 30px;
+border: 2px solid violet;
+color: fuchsia;
+background-color: white;
+}
+
+ul li a:hover{
+background-color: fuchsia;
+color: aqua;
+transition-duration: 1.5s;
+}
+
+header{
+font-size: 60px;
+text-align: center;
+color: white;
+font-family: georgia;
+}
+
+header:hover{
+color: fuchsia;
+transition: 1s;
+}
+
+img {
+width: 200px;
+height: 200px;
+border-radius: 50px;
+}
+
+h1{
+color: white;
+text-align: center;
+}
+
+table{
+width:100%;
+margin: 75px 0px 0px 0px;
+}
+
+table, th, td{
+  border: 0px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th{
+  padding: 0px 70px 0px 70px;
+  text-align: center;
+}
+
+th a:hover{
+cursor: pointer;
+}
+
+td{
+color: white;
+text-align: center;
+font-family: verdana;
+padding: 0px 20px 0px 20px;
+font-size: 25px;
+}
+
+td:hover{
+color: fuchsia;
+transition-duration: 1s;
+}
